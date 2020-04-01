@@ -1,0 +1,315 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+body {
+  background-color: #FFFFFF;
+  color: #333333;
+  font-family: 'Lato', 'Noto Sans JP', '游ゴシック Medium', '游ゴシック体', 'Yu Gothic Medium', YuGothic, 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  font-size: 14px;
+}
+
+.inner {
+  margin: 0 auto;
+  max-width: 100%;
+  width: 1200px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+article,
+aside,
+footer,
+header,
+nav,
+section,
+main {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+span,
+em,
+small,
+strong,
+sub,
+sup,
+mark,
+del,
+ins,
+strike,
+abbr,
+dfn,
+blockquote,
+q,
+cite,
+code,
+pre,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+div,
+section,
+article,
+main,
+aside,
+nav,
+header,
+hgroup,
+footer,
+img,
+figure,
+figcaption,
+address,
+time,
+audio,
+video,
+canvas,
+iframe,
+details,
+summary,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  outline: none;
+  text-decoration: none;
+}
+
+img {
+  border: none;
+  height: auto;
+  max-width: 100%;
+  vertical-align: top;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, sans-serif;
+  font-size: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+button {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  outline: none;
+  padding: 0;
+}
+
+.footer {
+  background: #edfcff;
+  color: #4d4d4d;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.header {
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+}
+
+.header-logo {
+  color: #029ae2;
+  float: left;
+  font-family: HelveticaNeue;
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 0.01em;
+  margin-left: 32px;
+}
+
+.header-logo .logo-last {
+  color: #30d0ed;
+}
+
+.header-list {
+  display: flex;
+  font-family: 'ヒラギノ角ゴ Pro';
+  justify-content: flex-end;
+}
+
+.header-list li:not(:last-child) {
+  margin-right: 51px;
+}
+
+.contact-btn {
+  background-color: #30d0ed;
+  color: #ffffff;
+  padding: 0 50px;
+}
+
+.main {
+  background-image: url("../img/background.jpg");
+  height: 670px;
+  position: relative;
+}
+
+.main-txt {
+  -webkit-transform: translate(-50%, -50%);
+  color: #ffffff;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 140px;
+  letter-spacing: 0.0025em;
+  line-height: 0.82;
+}
+
+.main-lead {
+  font-family: 'ヒラギノ角ゴ ProN W6',serif;
+  font-size: 25px;
+  letter-spacing: 0.1em;
+  line-height: 1.44;
+  margin-top: 44px;
+}
+
+.news {
+  background-color: #edfcff;
+  height: 235px;
+}
+
+.news .inner {
+  display: flex;
+  padding-top: 43px;
+}
+
+.news-left {
+  margin-right: 42px;
+}
+
+.news-title {
+  color: #029ae2;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+  letter-spacing: 0.025em;
+  line-height: 1;
+  margin-bottom: 7px;
+}
+
+.news-more {
+  font-size: 12px;
+  line-height: 2;
+}
+
+.news-more:after {
+  content: '\f105';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  padding-left: 1rem;
+}
+
+.news-items {
+  font-size: 13px;
+  line-height: 1.8;
+  width: 100%;
+}
+
+.news-more, .news-items {
+  font-family: 'ヒラギノ角ゴ Pro';
+  letter-spacing: 0.075em;
+}
+
+.news-item {
+  border-bottom: 1px solid #30d0ed;
+  display: flex;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.news-item-tag {
+  background: #029ae2;
+  color: #ffffff;
+  font-weight: bold;
+  margin-left: 30px;
+  margin-right: 34px;
+  text-align: center;
+  width: 80px;
+}
+
+.service .inner {
+  padding-bottom: 80px;
+  padding-top: 80px;
+  text-align: center;
+}
+
+.service-title {
+  color: #029ae2;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+  letter-spacing: 0.025em;
+  line-height: 1;
+  margin-bottom: 7px;
+}
+
+.service-txt {
+  color: #029ae2;
+  font-family: Helvetica;
+  font-weight: bold;
+  letter-spacing: 0.075em;
+  line-height: 1.7;
+}
+
+.service-items {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 21px;
+}
+
+.service-items img {
+  height: 220px;
+  width: 380px;
+}

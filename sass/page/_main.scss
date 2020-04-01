@@ -1,0 +1,30 @@
+.main {
+    height: 670px;
+    background-image: url("../img/background.jpg");
+    position: relative;
+}
+
+.main-txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform : translate(-50%,-50%);
+    transform : translate(-50%,-50%);
+    text-align: center;
+    color: #ffffff;
+}
+
+.main-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 140px;
+    line-height: 0.82;
+    letter-spacing: 0.0025em;
+}
+
+.main-lead {
+    font-family: 'ヒラギノ角ゴ ProN W6',serif;
+    margin-top: 44px;
+    font-size: 25px;
+    line-height: 1.44;
+    letter-spacing: 0.1em;
+}

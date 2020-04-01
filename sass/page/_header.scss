@@ -1,0 +1,33 @@
+.header {
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+}
+
+.header-logo {
+    font-family: HelveticaNeue;
+    font-weight: bold;
+    letter-spacing: 0.01em;
+    font-size: 28px;
+    color: $main-color;
+    float: left;
+    margin-left: 32px;
+    .logo-last {
+        color: $sub-color;
+    }
+}
+
+.header-list {
+    font-family: 'ヒラギノ角ゴ Pro';
+    display: flex;
+    justify-content: flex-end;
+    li:not(:last-child) {
+        margin-right: 51px;
+    }
+}
+
+.contact-btn {
+    color: #ffffff;
+    background-color: $sub-color;
+    padding: 0 50px;
+}

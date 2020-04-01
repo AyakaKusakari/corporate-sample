@@ -1,0 +1,60 @@
+.news {
+    background-color: #edfcff;
+    height: 235px;
+    .inner {
+        display: flex;
+        padding-top: 43px;
+    }
+}
+
+.news-left {
+    margin-right: 42px;
+}
+
+.news-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    color: $main-color;
+    line-height: 1;
+    letter-spacing: 0.025em;
+    margin-bottom: 7px;
+}
+
+.news-more {
+    font-size: 12px;
+    line-height: 2;
+    &:after {
+        font-family: "Font Awesome 5 Free";
+        content: '\f105';
+        font-weight: 900;
+        padding-left: 1rem;
+    }
+}
+
+.news-items {
+    font-size: 13px;
+    line-height: 1.8;
+    width: 100%;
+}
+
+.news-more, .news-items {
+    font-family: 'ヒラギノ角ゴ Pro';
+    letter-spacing: 0.075em;
+}
+
+.news-item {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid $sub-color;
+}
+
+.news-item-tag {
+    background: $main-color;
+    color: #ffffff;
+    font-weight: bold;
+    width: 80px;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 34px;
+}
